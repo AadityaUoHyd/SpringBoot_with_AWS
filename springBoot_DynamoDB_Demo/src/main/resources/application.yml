@@ -1,10 +1,10 @@
 cloud:
   aws:
     credentials:
-      access-key: AKIA4CGABF5IA7KBL35L    #Kindly put Your Own access-key. Find/Generate it from (Click to your right side UserName navigation bar-> My Security Credentials -> IAM page -> access-key).
-      secret-key: a6SjUVsCe/YtbrFFsJU3J4+4GTnQapSZXpeMs2mQ    #Kindly put Your Own secret-Key. Find/Generate it from (UserName -> My Security Credentials -> IAM page -> secret-key).
+      access-key: xxxxxx    #Kindly put Your Own access-key. Find/Generate it from (Click to your right side UserName navigation bar-> My Security Credentials -> IAM page -> access-key).
+      secret-key: xxxxxx    #Kindly put Your Own secret-Key. Find/Generate it from (UserName -> My Security Credentials -> IAM page -> secret-key).
     region:
-      static: ap-south-1  #Kindly put your own AWS region.
+      static: xxxxx  #Kindly put your own AWS region.
 
 
 server:
