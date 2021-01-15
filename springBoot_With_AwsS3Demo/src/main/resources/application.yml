@@ -1,16 +1,15 @@
 cloud:
   aws:
     credentials:
-      access-key: AKIAJ2TK3JEGA34EBBUA
-      secret-key: rIVecaTpLkp/ZyVuW5nW26/OKkQ+9AD5/so4fjZd
-    region:
-      static: ap-south-1
+      access-key: xxxxx    #Kindly put Your Own access-key. Find/Generate it from (Click to your right side UserName navigation bar-> My Security Credentials -> IAM page -> access-key).
+      secret-key: xxxxx    #Kindly put Your Own secret-Key. Find/Generate it from (UserName -> My Security Credentials -> IAM page -> secret-key).
+      static: ap-south-1   #Provide your own AWS region.
     stack:
       auto: false
 
 application:
   bucket:
-    name: my-s3-strorages
+    name: my-s3-strorages   #Provide your own unique AWS s3 bucket name.
 
 
 spring:
